@@ -21,7 +21,6 @@ app.get('/', (req, res) => {
   const ip = requestIp.getClientIp(req);
   fs.readFile(filePath, 'utf8', (err, htmlData) => {
     if (err) {
-      logger.error('read err', err);
       return res.status(404).end();
     }
 
