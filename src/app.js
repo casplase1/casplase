@@ -31,6 +31,7 @@ const H1 = styled.h1`
   @media (min-width: 768px) {
     font-size: 52px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 `;
 
@@ -46,10 +47,10 @@ const H2 = styled.h2`
   font-family: Roboto-Light, 'sans-serif';
   margin-top: 40px;
   margin-bottom: 0;
-  padding-top: 20px;
+  // padding-top: 20px;
   
   @media (min-width: 768px) {
-    padding-top: 40px;
+    // padding-top: 40px;
   }
 `;
 
@@ -73,7 +74,7 @@ const ImgWrapper = styled.a`
 const Description = styled.article`
   font-family: Roboto-Light, 'sans-serif';
   text-align: left;
-  padding: 20px 40px;
+  padding: 20px 25px;
   color: #454545;
 `;
 
@@ -92,6 +93,30 @@ const ProjectLink = styled.a`
   color: #000;
 `;
 
+const HeaderDescription = styled.h2`
+  font-family: helvetica,sans-serif;
+  color: #a0a0a0;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: .05em;
+  padding: 0 25px;
+  font-size: 14px;
+  text-align: left;
+  
+  @media (min-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+  }
+`;
+
+const BR = styled.br`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+`;
+
 const Card = ({logo, link, linkText, alt, text}) => (
   <CardWrapper>
     <ImgWrapper href={link}>
@@ -108,6 +133,8 @@ export default () => (
   <Wrapper>
     <Logo src={casplaseLogo} alt="Креативное агенство Солоницкий, Панченко и Першин"/>
     <H1>Creative agency <br /><SubHeader>Solonitsky, Panchenko & Pershin</SubHeader></H1>
+    <HeaderDescription>Мы - креативное агентство, разрабатываем продукты используя лазерное оборудование, <BR /> фрезеровку, УФ-печать.
+      У нас много ресурсов, собственное производство и слаженная команда.​</HeaderDescription>
     <H2>Проекты</H2>
     <Projects>
       <Card
