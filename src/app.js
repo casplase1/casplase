@@ -94,9 +94,8 @@ const ProjectLink = styled.a`
 `;
 
 const HeaderDescription = styled.h2`
-  font-family: helvetica,sans-serif;
+  font-family: Roboto-Light, 'sans-serif';
   color: #a0a0a0;
-  line-height: 1.5;
   font-weight: 300;
   letter-spacing: .05em;
   padding: 0 25px;
