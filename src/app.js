@@ -111,6 +111,14 @@ const BR = styled.br`
   }
 `;
 
+const Delimiter = styled.hr`
+  margin: 0 25px 50px 25px;
+  
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
 const Card = ({logo, link, linkText, alt, text}) => (
   <CardWrapper>
     <ImgWrapper href={link}>
@@ -138,6 +146,7 @@ export default () => (
         alt="nagravirovku.ru лазерная резка и гравировка"
         text="Лазерная резка и гравировка любых материалов (дерево, кожа, пластик, оргстекло, и.т.п). Лазерная маркировка металла, фрезеровка. Полноцветная УФ-печать. Быстрый расчет заказа, качественное исполнение."
       />
+      <Delimiter color="#a0a0a0" size="1" />
       <Card
         link="https://casewood.ru"
         linkText="casewood.ru"
@@ -145,6 +154,7 @@ export default () => (
         alt="casewood.ru деревянные чехлы с гравировкой или фото"
         text="Деревянные чехлы с гравировкой на все модели iPhone. Индивидуальный дизайн для каждого клиента. Гравировка логотипов, надписей. Каталог готовых дизайнов, именные чехлы. Нанесение фотографии в ч/б и цвете."
       />
+      <Delimiter color="#a0a0a0" size="1" />
       <Card
         link="https://donishki.ru"
         linkText="donishki.ru"
@@ -152,6 +162,7 @@ export default () => (
         alt="donishki.ru донышки для вязания (плетения) корзинок"
         text="Производство донышек для вязания (плетения) корзинок из трикотажной пряжи. Большой каталог готовых изделий, оптовый и розничный прайс. Разработка дизайна донышек на заказ."
       />
+      <Delimiter color="#a0a0a0" size="1" />
       <Card
         link="https://broshaker.ru"
         linkText="broshaker.ru"
