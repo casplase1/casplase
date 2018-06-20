@@ -93,6 +93,7 @@ const HeaderDescription = styled.h2`
   color: #a0a0a0;
   font-weight: 300;
   letter-spacing: .05em;
+  line-height: 1.5;
   padding: 0 25px;
   font-size: 14px;
   text-align: left;
