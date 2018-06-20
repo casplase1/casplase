@@ -1,7 +1,7 @@
 import 'babel-polyfill';
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import casplaseLogo from './casplase-black.svg'
+import casplaseLogoInline from './casplase_black_inline.svg';
 import casewoodLogo from './Projects/casewood.svg';
 import broshakerLogo from './Projects/broshaker.svg';
 import donishkiLogo from './Projects/donishki-color-logo.svg';
@@ -13,9 +13,9 @@ const Wrapper = styled.div`
 `;
 
 const Logo = styled.img`
-  width: 70px;
-  padding-top: 20px;
-  
+  width: 100px;
+  padding-top: 40px;
+ 
   @media (min-width: 768px) {
     width: 150px;
     padding-top: 50px;
@@ -130,7 +130,7 @@ const Card = ({logo, link, linkText, alt, text}) => (
 
 export default () => (
   <Wrapper>
-    <Logo src={casplaseLogo} alt="Креативное агенство Солоницкий, Панченко и Першин"/>
+    <Logo src={casplaseLogoInline} alt="Креативное агенство Солоницкий, Панченко и Першин"/>
     <H1>Creative agency <br /><SubHeader>Solonitsky, Panchenko & Pershin</SubHeader></H1>
     <HeaderDescription>Мы - креативное агентство, разрабатываем продукты используя лазерное оборудование, <BR /> фрезеровку, УФ-печать.
       У нас много ресурсов, собственное производство и слаженная команда.​</HeaderDescription>
