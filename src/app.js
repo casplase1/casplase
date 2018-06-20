@@ -44,7 +44,7 @@ const SubHeader = styled.span`
 `;
 
 const H2 = styled.h2`
-  font-family: Roboto-Light, 'sans-serif';
+  font-family: 'Roboto-Light', sans-serif;
   margin-top: 40px;
   margin-bottom: 0;
 `;
