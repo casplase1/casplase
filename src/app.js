@@ -47,11 +47,6 @@ const H2 = styled.h2`
   font-family: Roboto-Light, 'sans-serif';
   margin-top: 40px;
   margin-bottom: 0;
-  // padding-top: 20px;
-  
-  @media (min-width: 768px) {
-    // padding-top: 40px;
-  }
 `;
 
 const Projects = styled.div`
@@ -72,7 +67,7 @@ const ImgWrapper = styled.a`
 `;
 
 const Description = styled.article`
-  font-family: Roboto-Light, 'sans-serif';
+  font-family: 'Roboto-Light', sans-serif;
   text-align: left;
   padding: 20px 25px;
   color: #454545;
@@ -94,7 +89,7 @@ const ProjectLink = styled.a`
 `;
 
 const HeaderDescription = styled.h2`
-  font-family: Roboto-Light, 'sans-serif';
+  font-family: 'Roboto-Light', sans-serif;
   color: #a0a0a0;
   font-weight: 300;
   letter-spacing: .05em;
@@ -165,7 +160,6 @@ export default () => (
         text="Спортивные именные шейкеры, именные бутылки для воды, именные термосы и термокружки. Уникальность нашего товара – яркий и привлекательный дизайн, созданный самим покупателем! Мы продаём именные товары для спорта и повседневной жизни."
       />
     </Projects>
-
     <Footer />
   </Wrapper>
 );
