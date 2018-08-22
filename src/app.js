@@ -165,7 +165,7 @@ export default () => (
       />
       <Delimiter color="#a0a0a0" size="1" />
       <Card
-        link="https://broshaker.ru"
+        link="http://broshaker.ru"
         linkText="broshaker.ru"
         logo={broshakerLogo}
         alt="broshaker.ru именные шейкеры"
