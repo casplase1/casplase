@@ -141,8 +141,8 @@ export default () => (
     <H2>Проекты</H2>
     <Projects>
       <Card
-        link="https://nagravirovku.ru"
-        linkText="nagravirovku.ru"
+        link="http://nagravirovku.casplase.ru/"
+        linkText="nagravirovku.casplase.ru"
         logo={nagravirovkuLogo}
         alt="nagravirovku.ru лазерная резка и гравировка"
         text="Лазерная резка и гравировка любых материалов (дерево, кожа, пластик, оргстекло, и.т.п). Лазерная маркировка металла, фрезеровка. Полноцветная УФ-печать. Быстрый расчет заказа, качественное исполнение."
