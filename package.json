@@ -24,7 +24,7 @@
     "file-loader": "^1.1.11",
     "ignore-styles": "^5.0.1",
     "md5-file": "^4.0.0",
-    "svg-inline-loader": "^0.8.0",
+    "svg-inline-loader": "^0.8.2",
     "webpack": "^4.2.0",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
